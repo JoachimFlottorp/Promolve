@@ -6,11 +6,15 @@
     "types": "./dist/index.d.ts",
     "type": "module",
     "exports": {
-        ".": {
-            "types": "./dist/index.d.ts",
-            "default": "./dist/index.js"
-        },
-        "./package.json": "./package.json"
+        "./*": "./dist/*",
+        "./@Types": "./dist/@Types/*"
+    },
+    "typesVersions": {
+        "*": {
+            "*": [
+                "dist/*"
+            ]
+        }
     },
     "publishConfig": {
         "access": "public"
