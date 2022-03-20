@@ -12,6 +12,9 @@
         },
         "./package.json": "./package.json"
     },
+    "publishConfig": {
+        "access": "public"
+    },
     "scripts": {
         "test": "jest",
         "build": "npm run build:tsc",
