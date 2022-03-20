@@ -1,5 +1,5 @@
-import { add } from './add.js';
+import { Promolve } from './Promolve.js';
 
-export { add };
+export { Promolve };
 
-export default { add };
+export default Promolve;
