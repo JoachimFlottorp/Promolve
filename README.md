@@ -2,7 +2,7 @@
 
 > ES6
 ```javascript
-import { Promolve } from '@melon095/Promolve';
+import { Promolve } from 'promolve';
 
 const p = Promolve();
 
@@ -20,8 +20,8 @@ DoSomethingCB(p.resolve);
 
 > Typings
 ```typescript
-import { Promolve } from '@melon095/Promolve';
-import { IResolve } from '@melon095/Promolve/@Types';
+import { Promolve } from 'promolve';
+import { IResolve } from 'promolve/@Types';
 
 const p = Promolve<number>();
 

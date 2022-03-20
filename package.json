@@ -1,5 +1,5 @@
 {
-    "name": "@melon095/promolve",
+    "name": "promolve",
     "version": "1.0.0",
     "description": "Quick access to Resolve, Reject variables in Promise",
     "main": "./dist/index.js",
