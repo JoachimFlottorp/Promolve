@@ -19,8 +19,8 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
       - run: npm install
-      - run: npm build
-      - run: npm test
+      - run: npm run build
+      - run: npm run test
 
   publish-npm:
     needs: build
@@ -32,8 +32,8 @@ jobs:
           node-version: '16'
           registry-url: https://registry.npmjs.org/
       - run: npm install
-      - run: npm format
-      - run: npm build
+      - run: npm run format
+      - run: npm run build
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
