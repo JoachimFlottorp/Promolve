@@ -1,20 +1,13 @@
 {
-    "name": "promolve",
-    "version": "1.0.0",
+    "name": "@melon95/promolve",
+    "version": "1.0.1",
     "description": "Quick access to Resolve, Reject variables in Promise",
     "main": "./dist/index.js",
-    "types": "./dist/index.d.ts",
     "type": "module",
     "exports": {
-        "./*": "./dist/*",
-        "./@Types": "./dist/@Types/*"
-    },
-    "typesVersions": {
-        "*": {
-            "*": [
-                "dist/*"
-            ]
-        }
+        ".": "./dist/index.js",
+        "./@Types/*": "./dist/@Types/*",
+        "./package.json": "./package.json"
     },
     "publishConfig": {
         "access": "public"
