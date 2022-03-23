@@ -1,6 +1,6 @@
 {
     "name": "@melon95/promolve",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Quick access to Resolve, Reject variables in Promise",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
