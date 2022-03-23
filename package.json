@@ -3,13 +3,14 @@
     "version": "1.0.1",
     "description": "Quick access to Resolve, Reject variables in Promise",
     "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "exports": {
         ".": {
             "require": "./dist/index.js",
             "import": "./dist/index.mjs",
             "types": "./dist/index.d.ts"
         },
-        "./@Types/*": "./dist/@Types/*",
+        "./@Types": "./dist/@Types/index.d.ts",
         "./package.json": "./package.json"
     },
     "publishConfig": {
@@ -18,7 +19,7 @@
     "scripts": {
         "test": "jest",
         "build": "npm run build:tsc",
-        "build:tsc": "tsup src/* src/@Types/* --format cjs,esm --dts --clean",
+        "build:tsc": "tsup src/* --format cjs,esm --dts --clean",
         "format": "prettier --config .prettierrc --write \"src/**/*.ts\""
     },
     "repository": {

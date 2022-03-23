@@ -38,8 +38,7 @@ DoSomethingCB(p.resolve);
 
 > Typings
 ```typescript
-import { Promolve } from '@melon95/promolve';
-import { IResolve } from '@melon95/promolve/@Types';
+import { Promolve, IResolve } from '@melon95/promolve';
 
 const p = Promolve<number>();
 

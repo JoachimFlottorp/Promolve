@@ -1,5 +1,4 @@
-import { Promolve } from '../index.js';
-import { IReject, IResolve } from '../@Types/index.js';
+import { Promolve, IReject, IResolve } from '../index.js';
 
 const DEFAULT_ERROR = 'This promise failed!';
 

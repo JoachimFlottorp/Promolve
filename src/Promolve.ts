@@ -1,4 +1,4 @@
-import { IPromolve } from './@Types/index.js';
+import { IPromolve } from './index.js';
 
 export function Promolve<T = void>(): IPromolve<T> {
 	let resolve = (value: T | PromiseLike<T>) => {};
